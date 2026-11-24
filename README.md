@@ -12,7 +12,7 @@ Dashboard administrativo do Atlas Connect IA
 
 Sobre este repositório: é um case técnico. O código-fonte, os dados e as regras de negócio são privados. O produto é desenvolvido em equipe, e aqui descrevo a minha parte nele.
 
-🔗 Site · LinkedIn
+https://niceautomationsia.com/ · https://www.linkedin.com/in/victor-rodrigues-da-silva-8bb48a179/
 
 <!-- ============================================================ TRECHO 2 — substitui a seção "## Minha atuação" inteira (até antes de "## Tecnologias") ============================================================ -->
 Minha atuação
