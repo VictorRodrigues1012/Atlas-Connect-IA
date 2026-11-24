@@ -1,4 +1,4 @@
-# Nice Connect IA
+# Atlas Connect IA
 
 > Nome atual do projeto; identidade comercial ainda sujeita a evolução.
 
@@ -9,7 +9,7 @@ Plataforma web adaptável de atendimento, automação e apoio operacional com in
 
 ## Sobre o projeto
 
-O Nice Connect IA nasceu da necessidade de reduzir tarefas repetitivas e organizar melhor o trabalho de atendimento. Sua evolução levou à construção de uma aplicação web que integra atendimento humano e automações com IA.
+O Atlas Connect IA nasceu da necessidade de reduzir tarefas repetitivas e organizar melhor o trabalho de atendimento. Sua evolução levou à construção de uma aplicação web que integra atendimento humano e automações com IA.
 
 Este case apresenta o contexto do projeto e minha participação Full Stack, concentrada no frontend e complementada por contribuições à evolução do backend e das integrações.
 
@@ -27,7 +27,7 @@ A sequência de evolução foi:
 4. Desenvolvimento da aplicação web.
 5. Aperfeiçoamento contínuo conforme as necessidades do próprio projeto.
 
-Durante essa trajetória, plataformas consolidadas de atendimento, como o Chatwoot, foram estudadas como referência de organização da experiência e de padrões de interação. A implementação e as regras do Nice Connect IA evoluíram conforme as necessidades próprias do projeto.
+Durante essa trajetória, plataformas consolidadas de atendimento, como o Chatwoot, foram estudadas como referência de organização da experiência e de padrões de interação. A implementação e as regras do Atlas Connect IA evoluíram conforme as necessidades próprias do projeto.
 
 ## Problema abordado
 
@@ -104,7 +104,7 @@ Os protótipos abaixo representam explorações iniciais e não correspondem ao 
 
 ### Do protótipo ao dashboard atual
 
-![Protótipo inicial do dashboard do Nice Connect IA](docs/images/figma-dashboard.jpeg)
+![Protótipo inicial do dashboard do Atlas Connect IA](docs/images/figma-dashboard.jpeg)
 
 *Protótipo inicial de uma visão geral operacional. Os números e percentuais são fictícios e não representam métricas reais do projeto.*
 
@@ -134,7 +134,7 @@ A ideia de modularidade permaneceu no projeto, mas a apresentação e o contexto
 
 ![Interface atual da área de conversas](docs/images/interface-atual-conversas.png)
 
-*Na implementação atual, o atendimento e o conteúdo relacionado às interações passaram a fazer parte da experiência central de conversas do Nice Connect IA. A captura foi sanitizada para uso público.*
+*Na implementação atual, o atendimento e o conteúdo relacionado às interações passaram a fazer parte da experiência central de conversas do Atlas Connect IA. A captura foi sanitizada para uso público.*
 
 O conceito de **Anexos** não permaneceu como uma aba isolada. Conforme a aplicação evoluiu, o conteúdo associado ao atendimento passou a ser tratado dentro do fluxo de conversas, aproximando arquivos e interações do contexto em que realmente são utilizados.
 
@@ -173,6 +173,6 @@ O material público se limita ao contexto, à evolução, às tecnologias e ao e
 
 ## Estado do projeto
 
-O Nice Connect IA continua em evolução. A interface, os serviços e as integrações são aperfeiçoados conforme as necessidades identificadas durante o desenvolvimento, preservando o caráter colaborativo do trabalho.
+O Atlas Connect IA continua em evolução. A interface, os serviços e as integrações são aperfeiçoados conforme as necessidades identificadas durante o desenvolvimento, preservando o caráter colaborativo do trabalho.
 
 Link do site: https://niceautomationsia.com/
