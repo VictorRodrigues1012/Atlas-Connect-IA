@@ -2,17 +2,18 @@
 
 Plataforma web de atendimento e automação com IA para imobiliárias, em fase de pré-lançamento. Centraliza em um só lugar a captação de leads, as conversas via WhatsApp com chatbot e a gestão da carteira de imóveis de cada corretor.
 
-	
-Para quem	Corretores e gestores de imobiliárias (base adaptável a outros segmentos)
-Minha função	Desenvolvedor Full Stack, com foco em front-end
-O que fiz	Maior parte das telas, integração front ↔ API, evolução do backend e das integrações de WhatsApp e IA
-Stack	Next.js · React · TypeScript · Tailwind · Node.js · Express · PostgreSQL · Redis/BullMQ · Docker
+| | |
+| --- | --- |
+| **Para quem** | Corretores e gestores de imobiliárias (base adaptável a outros segmentos) |
+| **Minha função** | Desenvolvedor Full Stack, com foco em front-end |
+| **O que fiz** | Maior parte das telas, integração front ↔ API, evolução do backend e das integrações de WhatsApp e IA |
+| **Stack** | Next.js · React · TypeScript · Tailwind · Node.js · Express · PostgreSQL · Redis/BullMQ · Docker |
 
-Dashboard administrativo do Atlas Connect IA
+![Dashboard administrativo do Atlas Connect IA](docs/images/interface-atual-dashboard.png)
 
-Sobre este repositório: é um case técnico. O código-fonte, os dados e as regras de negócio são privados. O produto é desenvolvido em equipe, e aqui descrevo a minha parte nele.
+> **Sobre este repositório:** é um case técnico. O código-fonte, os dados e as regras de negócio são privados. O produto é desenvolvido em equipe, e aqui descrevo a minha parte nele.
 
-https://niceautomationsia.com/ · https://www.linkedin.com/in/victor-rodrigues-da-silva-8bb48a179/
+🔗 [Site](https://niceautomationsia.com/) · [LinkedIn](https://www.linkedin.com/in/victor-rodrigues-da-silva-8bb48a179/)
 
 ## Sobre o projeto
 
@@ -46,26 +47,28 @@ A proposta do projeto passou a ser reunir atendimento, organização de contatos
 
 O projeto tem uma proposta adaptável a diferentes segmentos e operações. Saúde, consórcios, advocacia e mercado imobiliário são exemplos de contextos considerados, assim como outras atividades comerciais e de atendimento.
 
-Esses exemplos indicam possibilidades de aplicação. Não representam uma lista de clientes ou de implantações comprovadas em cada segmento.
+Esses segmentos são possibilidades de aplicação, não implantações em andamento.
 
-Minha atuação
-Front-end (principal área)
+## Minha atuação
+
+### Front-end (principal área)
 
 Construí a maior parte da interface atual com Next.js, React e TypeScript:
 
-Estrutura de páginas, layouts e componentes reutilizáveis
-Navegação entre os módulos: dashboard, conversas, contatos, agendamentos, disparos, follow-up e tags
-Layouts responsivos para diferentes tamanhos de tela
-Estados de interface: carregamento, vazio, erro e sucesso
-Integração das telas com a API do backend
+- Estrutura de páginas, layouts e componentes reutilizáveis
+- Navegação entre os módulos: dashboard, conversas, contatos, agendamentos, disparos, follow-up e tags
+- Layouts responsivos para diferentes tamanhos de tela
+- Estados de interface: carregamento, vazio, erro e sucesso
+- Integração das telas com a API do backend
 
-Desafio: manter a experiência consistente enquanto as funcionalidades mudavam, com módulos que surgiam, eram reorganizados ou incorporados a outros fluxos (como os anexos, que viraram parte das conversas).
+**Desafio:** manter a experiência consistente enquanto as funcionalidades mudavam, com módulos que surgiam, eram reorganizados ou incorporados a outros fluxos (como os anexos, que viraram parte das conversas).
 
-Backend e integrações
-Evolução da API em Node.js/Express, com PostgreSQL e processamento assíncrono com Redis e BullMQ
-Inclusão, reorganização e substituição de ferramentas conforme os requisitos mudaram
-Integração do WhatsApp via Z-API e API oficial da Meta
-Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
+### Backend e integrações
+
+- Evolução da API em Node.js/Express, com PostgreSQL e processamento assíncrono com Redis e BullMQ
+- Inclusão, reorganização e substituição de ferramentas conforme os requisitos mudaram
+- Integração do WhatsApp via Z-API e API oficial da Meta
+- Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
 
 ## Tecnologias
 
@@ -77,7 +80,7 @@ Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
 | Persistência | PostgreSQL |
 | Processamento assíncrono | Redis e BullMQ |
 | Arquivos | Armazenamento compatível com S3 |
-| Integrações | APIs de IA e serviços de mensageria |
+| Integrações | WhatsApp (Z-API e API oficial da Meta), OpenAI e DeepSeek |
 | Verificações de engenharia | TypeScript, ESLint, Node Test Runner e Supertest |
 | Containerização | Docker |
 
@@ -160,8 +163,6 @@ Esses desafios relacionam trabalho de interface, comunicação entre camadas e m
 
 O projeto contém ferramentas de tipagem, lint e testes, além de migrações, controle de acesso, containerização e tratamento de erros. Há verificações relacionadas a integrações no backend.
 
-Essas práticas fazem parte da engenharia do projeto. Este case não apresenta métricas de cobertura, desempenho ou resultados comerciais, nem atribui garantias de qualidade apenas à presença dessas ferramentas.
-
 ## Privacidade do projeto
 
 Este repositório se destina exclusivamente à apresentação de um case técnico. Permanecem privados:
@@ -175,6 +176,4 @@ O material público se limita ao contexto, à evolução, às tecnologias e ao e
 
 ## Estado do projeto
 
-O Atlas Connect IA continua em evolução. A interface, os serviços e as integrações são aperfeiçoados conforme as necessidades identificadas durante o desenvolvimento, preservando o caráter colaborativo do trabalho.
-
-Link do site: https://niceautomationsia.com/
+O Atlas Connect IA continua em evolução. A interface, os serviços e as integrações são aperfeiçoados conforme as necessidades identificadas durante o desenvolvimento.
