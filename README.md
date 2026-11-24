@@ -14,26 +14,6 @@ Sobre este repositório: é um case técnico. O código-fonte, os dados e as reg
 
 https://niceautomationsia.com/ · https://www.linkedin.com/in/victor-rodrigues-da-silva-8bb48a179/
 
-<!-- ============================================================ TRECHO 2 — substitui a seção "## Minha atuação" inteira (até antes de "## Tecnologias") ============================================================ -->
-Minha atuação
-Front-end (principal área)
-
-Construí a maior parte da interface atual com Next.js, React e TypeScript:
-
-Estrutura de páginas, layouts e componentes reutilizáveis
-Navegação entre os módulos: dashboard, conversas, contatos, agendamentos, disparos, follow-up e tags
-Layouts responsivos para diferentes tamanhos de tela
-Estados de interface: carregamento, vazio, erro e sucesso
-Integração das telas com a API do backend
-
-Desafio: manter a experiência consistente enquanto as funcionalidades mudavam, com módulos que surgiam, eram reorganizados ou incorporados a outros fluxos (como os anexos, que viraram parte das conversas).
-
-Backend e integrações
-Evolução da API em Node.js/Express, com PostgreSQL e processamento assíncrono com Redis e BullMQ
-Inclusão, reorganização e substituição de ferramentas conforme os requisitos mudaram
-Integração do WhatsApp via Z-API e API oficial da Meta
-Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
-
 ## Sobre o projeto
 
 O Atlas Connect IA nasceu da necessidade de reduzir tarefas repetitivas e organizar melhor o trabalho de atendimento. Sua evolução levou à construção de uma aplicação web que integra atendimento humano e automações com IA.
@@ -68,29 +48,24 @@ O projeto tem uma proposta adaptável a diferentes segmentos e operações. Saú
 
 Esses exemplos indicam possibilidades de aplicação. Não representam uma lista de clientes ou de implantações comprovadas em cada segmento.
 
-## Minha atuação
+Minha atuação
+Front-end (principal área)
 
-O desenvolvimento envolve colaboração. Minha contribuição foi maior na interface, com participação também na evolução estrutural do backend e das integrações.
+Construí a maior parte da interface atual com Next.js, React e TypeScript:
 
-### Frontend — principal área de atuação
+Estrutura de páginas, layouts e componentes reutilizáveis
+Navegação entre os módulos: dashboard, conversas, contatos, agendamentos, disparos, follow-up e tags
+Layouts responsivos para diferentes tamanhos de tela
+Estados de interface: carregamento, vazio, erro e sucesso
+Integração das telas com a API do backend
 
-Minha principal contribuição foi a construção da **maior parte da estrutura visual/frontend atual**, com foco na experiência de uso, organização das páginas e integração das interfaces com os serviços da aplicação. Essa atuação se refere à camada de interface e não representa autoria integral do produto ou do backend.
+Desafio: manter a experiência consistente enquanto as funcionalidades mudavam, com módulos que surgiam, eram reorganizados ou incorporados a outros fluxos (como os anexos, que viraram parte das conversas).
 
-Minha atuação nessa camada abrangeu:
-
-- Estrutura de páginas, layouts e componentes.
-- Navegação e organização visual das funcionalidades.
-- Adaptação de layouts para diferentes tamanhos de tela.
-- Estados e interações da interface.
-- Integração das telas com funcionalidades disponibilizadas pelo backend.
-
-Um desafio recorrente foi manter a consistência da experiência enquanto as funcionalidades evoluíam, considerando tanto a organização dos componentes quanto a apresentação de informações e estados dos serviços.
-
-### Backend e integrações — participação e evolução
-
-Minha participação no backend foi menor que no frontend, mas envolveu trabalho de evolução e manutenção estrutural: inclusão e adaptação de ferramentas, reorganização de partes existentes e remoção ou substituição de soluções que deixaram de atender às necessidades do projeto.
-
-Também participei da evolução das integrações de mensageria e da substituição de soluções conforme os requisitos técnicos e operacionais mudaram. Essa contribuição ocorreu em colaboração, sem representar autoria integral do backend.
+Backend e integrações
+Evolução da API em Node.js/Express, com PostgreSQL e processamento assíncrono com Redis e BullMQ
+Inclusão, reorganização e substituição de ferramentas conforme os requisitos mudaram
+Integração do WhatsApp via Z-API e API oficial da Meta
+Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
 
 ## Tecnologias
 
