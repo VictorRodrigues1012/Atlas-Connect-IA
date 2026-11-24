@@ -1,11 +1,38 @@
 # Atlas Connect IA
 
-> Nome atual do projeto; identidade comercial ainda sujeita a evolução.
+Plataforma web de atendimento e automação com IA para imobiliárias, em fase de pré-lançamento. Centraliza em um só lugar a captação de leads, as conversas via WhatsApp com chatbot e a gestão da carteira de imóveis de cada corretor.
 
-> Este repositório é um case técnico.
-O código-fonte, dados operacionais e regras internas permanecem privados.
+	
+Para quem	Corretores e gestores de imobiliárias (base adaptável a outros segmentos)
+Minha função	Desenvolvedor Full Stack, com foco em front-end
+O que fiz	Maior parte das telas, integração front ↔ API, evolução do backend e das integrações de WhatsApp e IA
+Stack	Next.js · React · TypeScript · Tailwind · Node.js · Express · PostgreSQL · Redis/BullMQ · Docker
 
-Plataforma web adaptável de atendimento, automação e apoio operacional com inteligência artificial. Desenvolvida em colaboração, reúne interfaces de atendimento e organização de atividades conectadas a serviços de backend e integrações externas.
+Dashboard administrativo do Atlas Connect IA
+
+Sobre este repositório: é um case técnico. O código-fonte, os dados e as regras de negócio são privados. O produto é desenvolvido em equipe, e aqui descrevo a minha parte nele.
+
+🔗 Site · LinkedIn
+
+<!-- ============================================================ TRECHO 2 — substitui a seção "## Minha atuação" inteira (até antes de "## Tecnologias") ============================================================ -->
+Minha atuação
+Front-end (principal área)
+
+Construí a maior parte da interface atual com Next.js, React e TypeScript:
+
+Estrutura de páginas, layouts e componentes reutilizáveis
+Navegação entre os módulos: dashboard, conversas, contatos, agendamentos, disparos, follow-up e tags
+Layouts responsivos para diferentes tamanhos de tela
+Estados de interface: carregamento, vazio, erro e sucesso
+Integração das telas com a API do backend
+
+Desafio: manter a experiência consistente enquanto as funcionalidades mudavam, com módulos que surgiam, eram reorganizados ou incorporados a outros fluxos (como os anexos, que viraram parte das conversas).
+
+Backend e integrações
+Evolução da API em Node.js/Express, com PostgreSQL e processamento assíncrono com Redis e BullMQ
+Inclusão, reorganização e substituição de ferramentas conforme os requisitos mudaram
+Integração do WhatsApp via Z-API e API oficial da Meta
+Integração de modelos de IA (OpenAI e DeepSeek) aos fluxos de atendimento
 
 ## Sobre o projeto
 
